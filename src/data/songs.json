@@ -1,0 +1,41 @@
+{
+  "children": [
+    { "id": "simo", "name": "Simo", "color": "#2f6fe4" },
+    { "id": "aurora", "name": "Aurora", "color": "#e8488a" }
+  ],
+  "songs": [
+    {
+      "id": "twinkle",
+      "title": "Twinkle Twinkle Little Star",
+      "youtube": "https://www.youtube.com/watch?v=a6pB8DOOoVw",
+      "children": ["simo"],
+      "note": "Med pianokomp"
+    },
+    {
+      "id": "ode-to-joy-easy",
+      "title": "Ode to Joy – lett",
+      "youtube": "https://www.youtube.com/watch?v=LP3aUTTnCuA",
+      "children": ["simo"],
+      "note": "Med noter"
+    },
+    {
+      "id": "ode-to-joy-play-along",
+      "title": "Ode to Joy – spill med",
+      "youtube": "https://www.youtube.com/watch?v=fSH1yLZuN0E",
+      "children": ["simo", "aurora"]
+    },
+    {
+      "id": "ode-to-joy-solo",
+      "title": "Ode to Joy – solo klarinett",
+      "youtube": "https://www.youtube.com/watch?v=GG5coCBGJRo",
+      "children": ["aurora"]
+    },
+    {
+      "id": "fanfare-ode-to-joy",
+      "title": "Fanfare on Ode to Joy (William Owens)",
+      "youtube": "https://www.youtube.com/watch?v=-u3LdHEJUV8",
+      "children": ["aurora"],
+      "note": "B♭-klarinett"
+    }
+  ]
+}
