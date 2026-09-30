@@ -40,8 +40,8 @@ describe('song book', () => {
 
   it('lists the songs of one child', () => {
     const ids = songsFor(songBook, 'simo').map((s) => s.id)
-    expect(ids).toContain('twinkle')
-    expect(ids).not.toContain('ode-to-joy-solo')
+    expect(ids).toContain('chariots-of-fire')
+    expect(ids).not.toContain('xx')
   })
 
   it('reports problems', () => {
